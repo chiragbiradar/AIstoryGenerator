@@ -8,16 +8,7 @@ from streamlit_lottie import st_lottie
 import json
 
 # Initialize the OpenAI client
-import os
-
-# Load environment variables from .env file using os.environ
-with open('.env') as f:
-    for line in f:
-        if '=' in line:
-            key, value = line.strip().split('=', 1)
-            os.environ[key] = value
-
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])  # Use OpenAI API key from environment variable
+client = OpenAI(api_key="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")  # Replace with your OpenAI API key
 
 # Function to load Lottie animation from a URL
 def load_lottie(url):
