@@ -6,14 +6,9 @@ from io import BytesIO
 from fpdf import FPDF
 from streamlit_lottie import st_lottie
 import json
-from dotenv import load_dotenv  # Import load_dotenv
-import os  # Import os to access environment variables
-
-# Load environment variables from .env file
-load_dotenv()
 
 # Initialize the OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))  # Get API key from .env
+client = OpenAI(api_key="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")  # Replace with your OpenAI API key
 
 # Function to load Lottie animation from a URL
 def load_lottie(url):
