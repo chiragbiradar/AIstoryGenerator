@@ -3,7 +3,7 @@ from openai import OpenAI
 import json
 
 # Set your OpenAI API key
-os.environ['OPENAI_API_KEY'] = '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'  # Replace with your OpenAI API key
+os.environ['OPENAI_API_KEY'] = ''  # Replace with your OpenAI API key
 client = OpenAI()
 
 # Step 1: Prepare the Dataset

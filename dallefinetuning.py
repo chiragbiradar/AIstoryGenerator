@@ -1,5 +1,5 @@
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 
 from openai import OpenAI
 import requests

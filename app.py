@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 
 # Initialize the OpenAI client
-client = OpenAI(api_key="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")  # Replace with your OpenAI API key
+client = OpenAI(api_key="your-openai-api-key")  # Replace with your OpenAI API key
 
 # Streamlit App Title
 st.title("AI Story Generator with Frames 🎨📖")
